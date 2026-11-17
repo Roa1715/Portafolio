@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roa1715 | Portafolio</title>
+  <title>Robert Alejandro Jimenez Roa | Portafolio</title>
   <meta name="description" content="Proyectos de mi proceso en Riwi: de los primeros comandos de terminal a una landing con Tailwind CSS.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 <body>
 
   <header class="barra">
-    <a class="marca" href="#inicio">Roa1715</a>
+    <a class="marca" href="#inicio">Robert Alejandro Jimenez Roa</a>
     <a class="github" href="https://github.com/Roa1715" target="_blank" rel="noopener">github.com/Roa1715</a>
   </header>
 
@@ -25,14 +25,16 @@
       <p class="intro">Estos son los proyectos de mi proceso en Riwi, desde los primeros comandos de terminal hasta una landing hecha con Tailwind CSS.</p>
 
       <figure class="perfil">
-        <svg viewBox="0 0 1000 260" preserveAspectRatio="none" role="img" aria-label="Perfil de una subida con cuatro paradas: terminal y Python, HTML y CSS, Bootstrap y Tailwind CSS.">
-          <path class="relleno" d="M0,238 C60,232 80,205 125,205 S300,160 375,150 S560,105 625,95 S810,50 875,40 S960,30 1000,28 L1000,260 L0,260 Z"/>
-          <path class="linea" pathLength="1" d="M0,238 C60,232 80,205 125,205 S300,160 375,150 S560,105 625,95 S810,50 875,40 S960,30 1000,28"/>
-          <circle class="punto" style="animation-delay:.55s" cx="125" cy="205" r="9"/>
-          <circle class="punto" style="animation-delay:.95s" cx="375" cy="150" r="9"/>
-          <circle class="punto" style="animation-delay:1.35s" cx="625" cy="95" r="9"/>
-          <circle class="punto cima" style="animation-delay:1.8s" cx="875" cy="40" r="11"/>
-        </svg>
+        <div class="dibujo">
+          <svg viewBox="0 0 1000 260" preserveAspectRatio="none" role="img" aria-label="Perfil de una subida con cuatro paradas: terminal y Python, HTML y CSS, Bootstrap y Tailwind CSS.">
+            <path class="relleno" d="M0,238 C60,232 80,205 125,205 S300,160 375,150 S560,105 625,95 S810,50 875,40 S960,30 1000,28 L1000,260 L0,260 Z"/>
+            <path class="linea" d="M0,238 C60,232 80,205 125,205 S300,160 375,150 S560,105 625,95 S810,50 875,40 S960,30 1000,28"/>
+          </svg>
+          <span class="punto" aria-hidden="true" style="left:12.5%;top:78.85%;animation-delay:.55s"></span>
+          <span class="punto" aria-hidden="true" style="left:37.5%;top:57.69%;animation-delay:.95s"></span>
+          <span class="punto" aria-hidden="true" style="left:62.5%;top:36.54%;animation-delay:1.35s"></span>
+          <span class="punto cima" aria-hidden="true" style="left:87.5%;top:15.38%;animation-delay:1.8s"></span>
+        </div>
         <ol class="paradas">
           <li><a href="#terminal"><strong>Terminal y Python</strong><span>Los primeros ejercicios</span></a></li>
           <li><a href="#semana1"><strong>Semana 1</strong><span>HTML y CSS</span></a></li>
@@ -159,6 +161,23 @@
       </div>
     </section>
 
+    <section class="parada desvio" id="merca" aria-labelledby="t-merca">
+      <div class="parada-titulo">
+        <span class="cuando">Proyecto en grupo</span>
+        <h2 id="t-merca">Merca Fácil</h2>
+      </div>
+      <div class="parada-cuerpo">
+        <p class="lead">Una página para comparar el costo del mercado: armas tu lista de productos, fijas un presupuesto y ves cuánto cuesta en cada supermercado, con recetas sugeridas según lo que elegiste.</p>
+        <ul class="repos">
+          <li>
+            <a href="https://github.com/Juan-Orozco/merca-facil" target="_blank" rel="noopener">merca-facil</a>
+            <span>Hecha en equipo con una herramienta de IA. Los componentes están en React, los cálculos en TypeScript y los precios en una base de datos de supermercados.</span>
+          </li>
+        </ul>
+        <p class="tec">Tecnologías: Next.js, React, TypeScript, Tailwind CSS.</p>
+      </div>
+    </section>
+
     <section class="parada desvio" id="ia" aria-labelledby="t-ia">
       <div class="parada-titulo">
         <span class="cuando">Aparte</span>
@@ -169,10 +188,10 @@
         <ul class="repos">
           <li>
             <a href="https://github.com/Roa1715/IA_SEMANA2" target="_blank" rel="noopener">IA_SEMANA2</a>
-            <span>Un algoritmo que ordena tres números de menor a mayor; el borrador descargable de la actividad «Tres cupos, ocho estudiantes», con dos consultas a la IA comparadas; y <em>Merca Fácil</em>, una página hecha con una herramienta de IA para armar la lista de mercado, fijar un presupuesto, comparar supermercados y ver recetas sugeridas.</span>
+            <span>Un algoritmo que ordena tres números de menor a mayor; el borrador descargable de la actividad «Tres cupos, ocho estudiantes», con dos consultas a la IA comparadas; y la página Merca Fácil, que está en la parada anterior.</span>
           </li>
         </ul>
-        <p class="tec">Tecnologías: Next.js, React, TypeScript.</p>
+        <p class="tec">Tecnologías: algoritmos y herramientas de IA.</p>
       </div>
     </section>
 
